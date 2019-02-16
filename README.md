@@ -1,2 +1,61 @@
 # base-redux-pattern
-## React + Redux app architecture
+React + Redux app architecture
+
+## official docs
+ - <a href="//docs.drivedatum.com/development/reactjs/base-redux-pattern">docs.drivedatum.com/development/reactjs/base-redux-pattern</a>
+
+## project structure
+    - src
+        - common
+            - actions
+                - index.js
+                - processesPageLoadingFlag.js
+            - components
+                - Button
+                - Glass
+                - Input
+                - PageLoadingProcess
+                - Panel
+                - Scroll
+                - Typography
+            - middlewares
+                - index.js
+            - reducers
+                - processes
+                    - index.js
+                    - processes.js
+                    - functionsForMutate
+                        - index.js
+                        - pageLoadingFlag.js
+                - index.js
+            - selectors
+                - index.js
+        - routes
+            - ExamplePage
+                - index.js
+                - ExamplePage.jsx
+                - actions
+                    - index.js
+                - components
+                    - index.js
+                - middlewares
+                    - index.js
+                - reducers
+                    - index.js
+                - selectors
+                    - index.js
+        - static
+            - logo.png
+            - spinner.gif
+        - store
+            - index.js
+            - store.js
+        - styles
+            - button.js
+            - palette.js
+            - panel.js
+            - scroll,js
+            - typography.js
+        - index.jsx
+        - states.js
+        - theme.js
